@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Care Taker | About</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+    <link rel="icon" href="img/logos.png" type="image/x-icon" />
+</head>
+
+<body>
+    <div id="header_navbar">
+        <header id="header">
+            <div class="header_logo">
+                <a href="index.html"><img src="img/logos.png" alt="Name and Logo" /></a>
+            </div>
+            <div class="header_social">
+                <a href="https://www.facebook.com/login/" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+
+                <a href="https://twitter.com/i/flow/login" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+
+                <a href="https://www.instagram.com/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </header>
+        <div id="navbar_drop">&#9776</div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="jumbotron_2">
+        <div class="jumbotron_content">
+            <h3>About Us</h3>
+            <h5>The Trusted Cleaning Experts</h5>
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="main_heading">
+            <h3>Our Company mission</h3>
+            <p>
+                Care Taker cleaning opened for business 1 years
+                ago. Founder Keshab Shrestha & Sanjib Maharjan set out with the objective of
+                providing first class service to businesses and offices
+                around the Kathmandu area.
+            </p>
+            <p>
+                With a hired team of cleaning experts, we assess your
+                businesses cleaning needs and come up with a solution to
+                meet your requirements. We have the experience and staff to
+                get the job done, and we get it done quickly and efficiently
+                so your business can continue to operate smoothly.
+            </p>
+            <p>
+                We pride ourselves on making sure your work environment is
+                clean so you can work safely and efficiently.
+            </p>
+        </div>
+
+        <div class="main_banner">
+            <div class="banner_grid">
+                <div class="banner_content">
+                    <h4>1</h4>
+                    <h5>Years of experience</h5>
+                </div>
+                <div class="banner_content">
+                    <h4>17</h4>
+                    <h5>Client companies who trust us</h5>
+                </div>
+                <div class="banner_content">
+                    <h4>21</h4>
+                    <h5>Cleaning experts we employ</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="main_ceo">
+            <div class="ceo_content">
+                <img src="img/ceo.png" alt="CEO" />
+            </div>
+            <div class="ceo_content">
+                <h4>Sanjib Maharjan/Keshab Shrestha, Founder</h4>
+                <p class="ceo_p">
+                    We founded Care Taker Cleaning 1 years ago to
+                    provide companies the greatest possible service so they
+                    may continue to work their best. We are experts at what
+                    we do and we have the solution for all of your office
+                    cleaning needs. Let us know how we can help!
+                </p>
+                <h5>Sanjib Maharjan/Keshab Shrestha</h5>
+            </div>
+        </div>
+
+        <div class="main_testimonials">
+            <div class="testimonials_h3">
+                <h3>Why Our Clients Trust Us</h3>
+            </div>
+            <div class="testimonial_grid">
+                <div class="testimonial_content">
+                    <p class="testimonials_p">
+                        "We trust Care Taker Cleaning to get the job
+                        done for our offices. They have the knowledge and
+                        expertise to keep our work spaces clean."
+                    </p>
+                    <p>-Subin Satayal, Manager of MCQueen</p>
+                </div>
+                <div class="testimonial_content">
+                    <p class="testimonials_p">
+                        "Care Taker Cleaning has serviced us for
+                        years. They are quick and efficient and they have
+                        the tools to provide any cleaning solution."
+                    </p>
+                    <p>-Ram Thapa, CEO of NBK Garments</p>
+                </div>
+                <div class="testimonial_content">
+                    <p class="testimonials_p">
+                        "Very happy with the professional service and great
+                        job done by their team of experts. They get the job
+                        done properly every time."
+                    </p>
+                    <p>-Sandesh Panday, Queen Conference Centre</p>
+                </div>
+            </div>
+        </div>
+        <div class="main_contact">
+            <div class="contact_heading">
+                <h2 class="contact_h2">Contact Us</h2>
+                <p>
+                    We provide services to the Kathmandu Area. We look forward
+                    to assisting you with any cleaning needs.
+                </p>
+            </div>
+            <div class="contact_form">
+                <div id="error_message"></div>
+                <form id="myform" onsubmit="return validate();">
+                    <div class="input_field">
+                        <input type="text" placeholder="Name" id="name">
+                    </div>
+                    <div class="input_field">
+                        <input type="text" placeholder="Subject" id="subject">
+                    </div>
+                    <div class="input_field">
+                        <input type="text" placeholder="Phone" id="phone">
+                    </div>
+                    <div class="input_field">
+                        <input type="text" placeholder="Email" id="email">
+                    </div>
+                    <div class="input_field">
+                        <textarea placeholder="Message" id="message"></textarea>
+                    </div>
+                    <div class="btn">
+                        <input type="submit">
+                    </div>
+                </form>
+                <!-- <form>
+                        <input type="text" placeholder=" Name..." /><br />
+                        <input type="number" placeholder=" Phone..." /><br />
+                        <input type="text" placeholder=" Email..." /><br />
+                        <textarea
+                            type="text"
+                            placeholder=" Message..."
+                            style="height: 200px; width: 350px"
+                        ></textarea
+                        ><br />
+                        <button>Submit</button>
+                    </form> -->
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div id="footer">
+            <div class="footer_grid">
+                <ul class="footer_logo">
+                    <a href="index.html"><img src="img/logos.png" alt="Name and Logo" /></a>
+                    <li>
+                        Care Taker Office/Home Cleaning has been providing
+                        cleaning services throughout the Greater Kathmandu
+                        Area for 1 years
+                    </li>
+                </ul>
+                <ul>
+                    <h4>Links</h4>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <ul>
+                    <h4>Info</h4>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms and Conditions</a></li>
+                    <li><a href="">Support</a></li>
+                </ul>
+                <div>
+                    <ul>
+                        <h4>Contact Us</h4>
+                    </ul>
+                    <ul>
+                        Call or email us
+                        <li><i class="fa fa-phone"></i> 9808905877/9808403095</li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            caretaker@gmail.com
+                        </li>
+                    </ul>
+                    <ul>
+                        <h4>Follow us</h4>
+                        <li>
+                            <a href="https://www.facebook.com/login/" target="_blank">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+
+                            <a href="https://twitter.com/i/flow/login" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <h5>&copy; 2019 Care Taker Office/Home Cleaning</h5>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
